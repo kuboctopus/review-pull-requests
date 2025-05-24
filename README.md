@@ -1,77 +1,66 @@
-<header>
+# プルリクエストをレビューする
 
-<!--
-  <<< Author notes: Course header >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
--->
-
-# Review pull requests
-
-_Collaborate and work together on GitHub._
+_GitHub でコラボレーションし、共に作業しましょう。_
 
 </header>
 
 <!--
-  <<< Author notes: Course start >>>
-  Include start button, a note about Actions minutes,
-  and tell the learner why they should take the course.
+<<< 作成者メモ: コース開始 >>>
+開始ボタン、Actions の所要時間に関するメモ、そして受講者にこのコースを受講するべき理由を伝えてください。
 -->
 
-## Welcome
+## ようこそ
 
-All great projects start with collaboration. Pull requests are the foundation of teamwork on GitHub — and pull request reviews give you the ability to work together and discuss changes specific to a pull request by commenting, requesting changes, or approving.
+すべての素晴らしいプロジェクトはコラボレーションから始まります。プルリクエストは GitHub におけるチームワークの基盤です。プルリクエストのレビューでは、コメント、変更のリクエスト、承認などを通じて、プルリクエスト固有の変更について共同作業を行い、話し合うことができます。
 
-- **Who is this for**: Developers, new GitHub users, users new to Git, students, managers, teams.
-- **What you'll learn**: When and how to request a review; how to provide a review of someone else's pull request.
-- **What you'll build**: We'll be reviewing a pull request for a simple game.
-- **Prerequisites**: We assume you are familiar with creating branches, commits, and pull requests—you can learn this in our [Introduction to GitHub](https://github.com/skills/introduction-to-github) course.
-- **How long**: This course takes less than 30 minutes to complete.
+- **対象者**: 開発者、GitHub 初心者、Git 初心者、学生、マネージャー、チーム。
+- **学習内容**: レビューを依頼するタイミングと方法、他者のプルリクエストのレビュー方法。
+- **構築するもの**: シンプルなゲームのプルリクエストをレビューします。
+- **前提条件**: ブランチ、コミット、プルリクエストの作成方法に精通していることを前提としています。これらの知識は、[GitHub 入門](https://github.com/skills/introduction-to-github) コースで習得できます。
+- **所要時間**: このコースは 30 分以内で完了します。
 
-In this course, you will:
+このコースでは、以下の内容を学習します。
 
-1. Open a pull request
-2. Assign yourself
-3. Leave a review
-4. Suggest changes
-5. Apply changes
-6. Merge your pull request
+1. プルリクエストを作成する
+2. 自分にレビューを投稿する
+3. レビューを投稿する
+4. 変更を提案する
+5. 変更を適用する
+6. プルリクエストをマージする
 
-### How to start this course
+### このコースの開始方法
 
-<!-- For start course, run in JavaScript:
+<!-- コースを開始するには、JavaScript で次のコマンドを実行します。
 'https://github.com/new?' + new URLSearchParams({
-  template_owner: 'skills',
-  template_name: 'review-pull-requests',
-  owner: '@me',
-  name: 'skills-review-pull-requests',
-  description: 'My clone repository',
-  visibility: 'public',
+template_owner: 'kuboctopus',
+template_name: 'review-pull-requests',
+owner: '@me',
+name: 'skills-review-pull-requests',
+description: 'My clone repository',
+visibility: 'public',
 }).toString()
 -->
 
-[![start-course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=skills&template_name=review-pull-requests&owner=%40me&name=skills-review-pull-requests&description=My+clone+repository&visibility=public)
+[![start-course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=kuboctopus&template_name=review-pull-requests&owner=%40me&name=skills-review-pull-requests&description=My+clone+repository&visibility=public)
 
-1. Right-click **Start course** and open the link in a new tab.
-2. In the new tab, most of the prompts will automatically fill in for you.
-   - For owner, choose your personal account or an organization to host the repository.
-   - We recommend creating a public repository, as private repositories will [use Actions minutes](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
-   - Scroll down and click the **Create repository** button at the bottom of the form.
-3. After your new repository is created, wait about 20 seconds, then refresh the page. Follow the step-by-step instructions in the new repository's README.
+1. **Start course** を右クリックし、リンクを新しいタブで開きます。
+2. 新しいタブでは、ほとんどのプロンプトが自動的に入力されます。
+- オーナーとして、リポジトリをホストする個人アカウントまたは組織を選択します。
+- プライベートリポジトリは [Actions の分単位での課金](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions) が発生するため、パブリックリポジトリを作成することをお勧めします。
+- 下にスクロールし、フォームの下部にある [**Create repository**] ボタンをクリックします。
+3. 新しいリポジトリが作成されたら、約 20 秒待ってからページを更新します。新しいリポジトリの README に記載されている手順に従ってください。
 
 <footer>
 
 <!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
+<<< 著者注: フッター >>>
+サポートを受けるためのリンク、GitHub ステータスページ、行動規範、ライセンスへのリンクを追加します。
 -->
 
 ---
 
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/review-pull-requests) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
+ヘルプが必要な場合は、[ディスカッション ボードに投稿](https://github.com/orgs/skills/discussions/categories/review-pull-requests) &bull; [GitHub ステータスページを確認してください](https://www.githubstatus.com/)
 
-
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+&copy; 2023 GitHub &bull; [行動規範](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT ライセンス](https://gh.​​io/mit)
 
 </footer>
