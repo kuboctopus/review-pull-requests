@@ -14,7 +14,7 @@ _「プルリクエストの確認」へようこそ! :wave:_
 
 **プルリクエストとは?**: プルリクエストは共同作業の場となります。プルリクエストは、自分のブランチの変更内容を他のユーザーに示すものです。このプルリクエストは、自分のブランチに加えた変更内容を保持し、それを `main` ブランチに適用することを提案します。
 
-![pull-request](https://github.com/skills/review-pull-requests/images/pull-request.jpg)
+![pull-request](https://github.com/kuboctopus/review-pull-requests/blob/main/images/pull-request.jpg)
 
 ### :keyboard: アクティビティ: プルリクエストを作成する
 
