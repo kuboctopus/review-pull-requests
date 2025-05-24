@@ -49,18 +49,3 @@ visibility: 'public',
 - プライベートリポジトリは [Actions の分単位での課金](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions) が発生するため、パブリックリポジトリを作成することをお勧めします。
 - 下にスクロールし、フォームの下部にある [**Create repository**] ボタンをクリックします。
 3. 新しいリポジトリが作成されたら、約 20 秒待ってからページを更新します。新しいリポジトリの README に記載されている手順に従ってください。
-
-<footer>
-
-<!--
-<<< 著者注: フッター >>>
-サポートを受けるためのリンク、GitHub ステータスページ、行動規範、ライセンスへのリンクを追加します。
--->
-
----
-
-ヘルプが必要な場合は、[ディスカッション ボードに投稿](https://github.com/orgs/skills/discussions/categories/review-pull-requests) &bull; [GitHub ステータスページを確認してください](https://www.githubstatus.com/)
-
-&copy; 2023 GitHub &bull; [行動規範](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT ライセンス](https://gh.​​io/mit)
-
-</footer>
