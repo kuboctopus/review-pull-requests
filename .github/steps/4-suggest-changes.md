@@ -4,17 +4,6 @@
   Define terms and link to docs.github.com.
 -->
 
-## Step 4: Suggest changes
-
-_Nice work reviewing that pull request :sparkles:_
-
-Now that you have explored the different ways you can review a pull request it is time to learn how to use _suggest changes_.<!--
-<<< 作成者メモ: ステップ 4 >>>
-前のステップを確認した上で、このステップを開始してください。
-
-用語を定義し、docs.github.com へのリンクを追加します。
--->
-
 ## ステップ 4: 変更を提案する
 
 _プルリクエストのレビュー、お疲れ様でした :sparkles:_
